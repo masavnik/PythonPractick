@@ -14,7 +14,7 @@ class Person:
 
 
 person = Person('Олег', 'Хромцов', 12)
-
+print(person)
 
 class Car:
     count = 0

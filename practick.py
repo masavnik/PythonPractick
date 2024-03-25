@@ -1,8 +1,11 @@
-def arr(a):
-    chet = [i for i in a if i % 2 == 0]
-    nechet = [i for i in a if i % 2 != 0]
 
-    
+list_one = ['Масальских', 'Петров', 'Хромцов', 'Иванов', 'Куц']
+list_two = ['Владислав', 'Олег', 'Игорь', 'Евгений', 'Алексей']
 
 
-print(arr([2, 4, 0, 100, 4, 11, 2602, 36]))
+for i in range(len(list_one)):
+    for y in range(len(list_one) + 1):
+        if len(list_one[y]) > len(list_one[y]) + 1:
+            list_one[y], list_one[y + 1] = list_one[y + 1], list_one[y]
+
+print(list_one)

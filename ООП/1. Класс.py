@@ -1,10 +1,11 @@
 class Car:
+    import time
     '''Класс Car'''
 
     # Атрибуты - свойства класса
     brand = 'mercedes'
     model = 'c200'
-    release = 2011
+    release = time.time()
 
     # Метод класса
     def info_car(self):
