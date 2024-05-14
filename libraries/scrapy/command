@@ -1,6 +1,14 @@
 1. scrapy startproject <name>
 2. scrapy genspider <name file>  <https:link>
 3. scrapy shell - чтобы проверять классы в терминале
-4. fetch(link) - поключить ссылку
+4. fetch(link) - подключить ссылку
 
 5. scrapy crawl <self.class name> -O <name_file>.csv
+
+
+
+
+
+1. Проходимся по всем страницам
+2. Забираем ссылки на каждый продукт
+3. Собираем данные
