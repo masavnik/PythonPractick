@@ -75,5 +75,3 @@ async def form_photo(message: Message, state: FSMContext):
 @router.message(Form.photo, ~F.photo)
 async def incorrect_form_photo(message: Message, state: FSMContext):
     await message.answer('Отправь фото')
-
-

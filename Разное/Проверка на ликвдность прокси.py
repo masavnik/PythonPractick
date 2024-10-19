@@ -15,4 +15,4 @@ for i_proxi in proxi:
         response = requests.get(link, proxies=proxies, timeout=2).text
         print(f'IP: {response}')
     except:
-        print('Прокси не валидный')
+        print(proxi, 'Прокси не валидный')
